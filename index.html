@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wraper">
+      <div class="title">
+        <h1><strong>Todo list</strong></h1>
+      </div>
+      <div class="form-container">
+        <form>
+          <input
+            class="input-text"
+            id="inputText"
+            type="text"
+            placeholder="enter your task"
+            autofocus
+          />
+
+          <div class="btn-container">
+            <input
+              id="clear-btn"
+              type="button"
+              class="clear-btn"
+              value="Clear all"
+            />
+          </div>
+        </form>
+        <div class="input-container" id="input-container">
+          <ol class="item-container" id="list"></ol>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
